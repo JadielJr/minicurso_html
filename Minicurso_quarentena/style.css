@@ -1,0 +1,114 @@
+#nav{
+    background-color: #8c0032!important;
+    padding-left: 7px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#marca{
+    font-family: "Arial", cursive, sans-serif;
+    color: white;
+    font-size: x-large;
+}
+
+#marca:hover{
+    color:#fa5788;
+}
+
+#namepage{
+    color: white;
+}
+
+#namepage:hover{
+    color: #fa5788;
+}
+
+#legenda{
+    background-color:#8c0032 ;
+    opacity: 0.75;
+    width: 450px;
+    text-align: left;
+    padding-left: 25px;
+    border-radius: 10px;
+}
+
+.divMaster{
+    padding: 50px;
+    background-color: #F5F5F6;
+    min-height: 630px;
+    height: auto;
+    text-align: justify;
+}
+
+#divmaster{
+    padding-top: 109px;
+    background-color: #F5F5F6;
+    min-height: 613px;
+    height: auto;
+    text-align: justify;
+}
+
+.divalt{
+    padding: 50px;
+    background-color:#E1E2E1;
+    min-height: 613px;
+    height: auto;
+    text-align: justify;
+}
+ 
+#realization{
+    padding-bottom: 12px;
+    font-size: 14px;
+}
+#logopet{
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+}
+
+#logoufma{
+    width: 60px;
+    height: 60px;
+    margin-left: 8px;
+}
+
+#divfootcont{
+    float: right;
+    text-align:left;
+    font-size: 14px;
+}
+
+#divfootreal{
+    width: 150px;
+    float: left;
+}
+
+#copyright{
+    text-align: center;
+	font-size: 10px;
+	margin-top: 95px;
+}
+
+#inputfaq{
+    width: 550px;
+}
+
+footer{
+    display: block;
+    color: white;
+    background-color: #580017;
+    height:140px;
+    padding: 15px;    
+}
+
+table, th, td {
+    padding: 8px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#tr{
+    background-color: #8c0032;
+    color: white;
+}

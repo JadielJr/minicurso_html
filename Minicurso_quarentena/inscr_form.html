@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>PETComp Event</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav id="nav" class="navbar  fixed-top navbar-expand-lg navbar-light bg-light">        
+      <a id="marca" class="navbar-brand" href="C:\Users\Jadieljr\Desktop\Dev\Minicurso_quarentena\home.html">
+        <img src="Logo mono.png" width="35" height="32"> PETComp Event
+      </a>      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">        
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+            <a id="namepage" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              Sobre
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="C:\Users\Jadieljr\Desktop\Dev\Minicurso_quarentena\localizacao.html">
+                Localização
+              </a>
+              <div class="dropdown-divider">
+              </div>
+              <a class="dropdown-item" href="C:\Users\Jadieljr\Desktop\Dev\Minicurso_quarentena\sobre.html">
+                Sobre o evento
+              </a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a id="namepage" class="nav-link" href="C:\Users\Jadieljr\Desktop\Dev\Minicurso_quarentena\crono.html">
+              Cronograma
+            </a>
+          </li>
+          <li class="nav-item">
+            <a id="namepage" class="nav-link" href="C:\Users\Jadieljr\Desktop\Dev\Minicurso_quarentena\submis.html">
+              Submissão de trabalhos
+            </a>
+          </li>
+          <li class="nav-item">
+            <a id="namepage" class="nav-link" href="C:\Users\Jadieljr\Desktop\Dev\Minicurso_quarentena\inscr_form.html">
+              Inscrições
+            </a>
+          </li>
+          <li class="nav-item">
+            <a id="namepage" class="nav-link" href="C:\Users\Jadieljr\Desktop\Dev\Minicurso_quarentena\faq.html">
+              FAQ
+            </a>
+          </li>
+        </ul>        
+      </div>
+    </nav>
+    <div id="divmaster" class="divMaster">
+      <h3>Inscrições</h3>
+      <p>Preencha o formulário abaixo para realizar sua inscrição no evento:</p>  
+      <form>
+        <p>
+          Nome completo: <input type="text">
+        </p>
+        <p>
+          Instituição de ensino: <input type="text">
+        </p>
+        <p>
+          CPF: <input type="text">
+        </p>
+        <p>
+          Telefone: <input type="text">
+        </p>
+        <p>
+          E-mail: <input type="text">
+        </p>      
+        <p>
+          Sexo:<br>
+          <input type="radio" name="sex" value="masc"> Masculino<br>
+          <input type="radio" name="sex" value="fem"> Feminino<br>
+          <input type="radio" name="sex" value="nbin"> Não binário<br>
+        </p>
+        <p>
+          Escolha a(s) oficina(s) que deseja participar:<br>
+          <input type="checkbox" name="f1" value="ofic1"> Oficina 1<br>
+          <input type="checkbox" name="f2" value="ofic2"> Oficina 2<br>
+          <input type="checkbox" name="f3" value="ofic3"> Oficina 3<br>
+          <input type="checkbox" name="f4" value="ofic4"> Oficina 4<br>
+          <input type="checkbox" name="f5" value="ofic5"> Oficina 5<br>
+          <input type="checkbox" name="f6" value="ofic6"> Oficina 6<br>
+        </p>
+        <p>
+          Escolha o minicurso que deseja participar:<br>
+          <input type="checkbox" name="curso1" value="cur1"> Python Básico<br>
+          <input type="checkbox" name="curso2" value="cur2"> Linux<br>
+          <input type="checkbox" name="curso3" value="cur3"> Apache<br>
+          <input type="checkbox" name="curso4" value="cur4"> Lua e Love 2D<br>
+        </p>
+        <p>
+          Você irá participar da festa de encerramento?<br>
+          <input type="radio" name="awsr" value="s"> Sim<br>
+          <input type="radio" name="awsr" value="n"> Não<br>
+        </p>
+        <input type="submit" value="Enviar inscrição" onclick="alert('Inscrição feita com sucesso!')">      
+      </form>
+    </div>
+    <footer>        
+      <div id="divfootreal">
+        <div id="realization">
+          Realização:
+        </div>
+        <div>  
+          <a href="https://pet.ufma.br/comp/">
+            <img id="logopet" src="logopet.jpg">
+          </a>
+          <a href="https://portais.ufma.br/PortalUfma/index.jsf">
+            <img id="logoufma" src="logoufma.png">
+          </a>
+        </div>
+      </div>
+      <div id="divfootcont">
+        Contatos: <br> Tel:(XX) XXXXX-XXXX <br> 
+        <a href="https://www.instagram.com/"><img src="logoinsta.png" alt="!!!!" width="30" height="30"></a>
+        <a href="https://twitter.com/"><img src="logotwitter.png" alt="!!!!!" width="28" height="28"></a>
+      </div>      
+      <div id="copyright" >
+        Copyright © 2020 PETComp 
+      </div>
+    </footer>
+  </body>
+</html>
